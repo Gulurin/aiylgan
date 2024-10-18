@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c1763591dcad4259a59f785157d9cfa2" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="toursModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="toursModel.Картинки___" Width="1.5" PointX="7.875" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="toursModel.Комментарии___" Width="1.5" PointX="6.125" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="toursModel.Отели" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="toursModel.Страны___" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="toursModel.Типы_туров___" Width="1.5" PointX="9.375" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="toursModel.Туры" Width="1.5" PointX="6.375" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="toursModel.FK_Картинки____Отели" ManuallyRouted="false" />
+        <AssociationConnector Association="toursModel.FK_Комментарии____Отели" ManuallyRouted="false" />
+        <AssociationConnector Association="toursModel.FK_Отели_Страны___" ManuallyRouted="false" />
+        <AssociationConnector Association="toursModel.FK_Туры_Отели" ManuallyRouted="false" />
+        <AssociationConnector Association="toursModel.FK_Туры_Типы_туров___" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
